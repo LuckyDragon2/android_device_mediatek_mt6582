@@ -12,5 +12,5 @@ LOCAL_PROGUARD_ENABLED := disabled
 include $(BUILD_PACKAGE)
 
 # Use the folloing include to make our test apk.
-include $(call all-makefiles-under,$(LOCAL_PATH))
+# include $(call all-makefiles-under,$(LOCAL_PATH))
 

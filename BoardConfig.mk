@@ -143,7 +143,7 @@ USE_MINIKIN := true
 BOARD_SEPOLICY_DIRS += device/mediatek/mt6582/sepolicy
 
 # Sepolicy hack for old kernel, mt6582 version is 26.
-POLICYVERS := 26
+POLICYVERS := 30
 
 # Hack for building without kernel sources
 $(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
